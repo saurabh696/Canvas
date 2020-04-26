@@ -1,0 +1,38 @@
+﻿body
+{
+}
+
+#preview{
+    display:none;
+	border-style: solid;
+    padding: 60px;
+    background: turquoise;
+}
+
+.preview-img{
+    width: auto;
+    height: 200px;
+    visibility: visible;
+}
+
+.canvas{
+    border-style: groove;
+    height: 500px;
+}
+
+.changeFont{
+    border: solid;
+    position: absolute;
+    top: 10px;
+    height: 300px;
+    width: 300px;
+    background: wheat;
+    right: 441px;
+    z-index: 9999;
+    box-shadow: 0 2px 6px rgba(136, 108, 224, .1);
+}
+
+.fontLabel{
+    font-weight: 800;
+    font-size: 15px;
+}
